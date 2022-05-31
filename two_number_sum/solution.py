@@ -1,6 +1,3 @@
-from cgitb import reset
-
-
 def solution(array: list, target_sum:int) -> list:
     for x in array:
         cp_arry = array.copy()
