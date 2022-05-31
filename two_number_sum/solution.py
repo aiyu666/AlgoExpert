@@ -1,4 +1,4 @@
-def solution(array: list, target_sum:int) -> list:
+def two_number_sum(array: list, target_sum:int) -> list:
     for x in array:
         cp_arry = array.copy()
         cp_arry.remove(x)
