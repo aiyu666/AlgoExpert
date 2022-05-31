@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "algoexpert"
+version = "0.1.0"
+description = ""
+authors = ["aiyu666 <zrobin8741@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.1.2"
+pytest-html = "^3.1.1"
+black = "^22.3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
